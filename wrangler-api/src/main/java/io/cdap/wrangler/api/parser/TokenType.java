@@ -14,6 +14,12 @@
  * the License.
  */
 
+public enum TokenType {
+  // existing types
+  BYTE_SIZE,
+  TIME_DURATION;
+}
+
 package io.cdap.wrangler.api.parser;
 
 import io.cdap.wrangler.api.annotations.PublicEvolving;
